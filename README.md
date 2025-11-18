@@ -1,4 +1,4 @@
-<div style="width: 100%;">
+<div style="width: 70%; margin: auto;">
   <a href="./greetings.svg">
     <img src="./greetings.svg" style="width: 100%;" alt="Click to see the source">
   </a>
