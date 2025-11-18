@@ -1,6 +1,6 @@
 <div style="width: 100%;">
   <a href="https://github.com/deriso22/deriso22/blame/main/greetings.svg">
-    <img src="welcome.svg" style="width: 100%;" alt="Click to see the source">
+    <img src="greetings.svg" style="width: 100%;" alt="Click to see the source">
   </a>
 </div>
 <!--
