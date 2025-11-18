@@ -3,6 +3,11 @@
     <img src="./greetings.svg" style="width: 100%;" alt="Click to see the source">
   </a>
 </div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DerisO22&theme=transparent&layout=compact&hide_border=true"/>
+</div>
+
 <!--
 **DerisO22/DerisO22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

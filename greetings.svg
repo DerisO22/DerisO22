@@ -9,7 +9,7 @@
 				}
 
 				.body {
-					height: 400px;
+					height: 300px;
 					width: 100%;
 					display: flex;
 					align-items: center;
@@ -77,6 +77,16 @@
 				}
 
 				.text-3d span:nth-child(3) {
+					transform: translateZ(-4px);
+					color: #e0e0e0;
+				}
+
+				.text-3d span:nth-child(4) {
+					transform: translateZ(-4px);
+					color: #e0e0e0;
+				}
+
+				.text-3d span:nth-child(5) {
 					transform: translateZ(-4px);
 					color: #e0e0e0;
 				}
@@ -191,9 +201,9 @@
 
 				/* Info section */
 				.info-container {
-					width: fit-content;
+					width: 100%;
 					position: absolute;
-					bottom: 30px;
+					bottom: 10px;
 					left: 50%;
 					transform: translateX(-50%);
 					z-index: 100;
@@ -208,6 +218,11 @@
 					text-transform: uppercase;
 					text-shadow: 1px 1px #6495ED;
 					letter-spacing: 0.1em;
+				}
+
+				.highlight-text {
+					color: #40E0D0;
+					text-shadow: 1px 1.5px white;
 				}
 
 				.info-links {
@@ -339,6 +354,8 @@
 							<span>DERIS O'MALLEY</span>
 							<span>DERIS O'MALLEY</span>
 							<span>DERIS O'MALLEY</span>
+							<span>DERIS O'MALLEY</span>
+							<span>DERIS O'MALLEY</span>
 						</div>
 					</div>
 
@@ -404,11 +421,8 @@
 
 				<!-- Info Section -->
 				<div class="info-container">
-					<div class="info-text">Web Developer</div>
-					<div class="info-links">
-						<a href="https://www.linkedin.com/in/derisomalley/">LinkedIn</a>
-						<a href="https://derisomalley.me">3D Web Portfolio</a>
-					</div>
+					<div class="info-text">Web Developer @ <span class="highlight-text">The Leahy Center</span></div>
+					<div class="info-text">3rd Year CS @ <span class="highlight-text">Champlain College</span></div>
 				</div>
 			</div>
 		</div>
