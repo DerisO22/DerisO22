@@ -4,6 +4,6 @@
   </a>
 </div>
 
-<div align="center" style="margin-top: -7rem">
+<div align="center" style="margin-top: -100px">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DerisO22&theme=transparent&layout=compact&hide_border=true"/>
 </div>
