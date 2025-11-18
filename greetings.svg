@@ -18,6 +18,7 @@
 					overflow: hidden;
 					background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 					perspective: 1000px;
+					font-family: Comic Sans MS, Comic Sans, cursive;
 					border: 24px solid #0d1117;
 				}
 
@@ -44,9 +45,8 @@
 				/* Main 3D Text */
 				.text-3d {
 					position: relative;
-					font-size: 4rem;
+					font-size: 2rem;
 					font-weight: 900;
-					font-family: "Arial Black", sans-serif;
 					color: #fff;
 					text-transform: uppercase;
 					letter-spacing: 0.1em;
@@ -66,7 +66,7 @@
 				.text-3d span:nth-child(1) {
 					transform: translateZ(0px);
 					color: #fff;
-					text-shadow: 0 0 20px rgba(255,255,255,0.8);
+					text-shadow: 0 0 20px rgba(100,255,255,0.8);
 				}
 
 				.text-3d span:nth-child(2) {
@@ -77,66 +77,6 @@
 				.text-3d span:nth-child(3) {
 					transform: translateZ(-4px);
 					color: #e0e0e0;
-				}
-
-				.text-3d span:nth-child(4) {
-					transform: translateZ(-6px);
-					color: #d0d0d0;
-				}
-
-				.text-3d span:nth-child(5) {
-					transform: translateZ(-8px);
-					color: #c0c0c0;
-				}
-
-				.text-3d span:nth-child(6) {
-					transform: translateZ(-10px);
-					color: #b0b0b0;
-				}
-
-				.text-3d span:nth-child(7) {
-					transform: translateZ(-12px);
-					color: #a0a0a0;
-				}
-
-				.text-3d span:nth-child(8) {
-					transform: translateZ(-14px);
-					color: #909090;
-				}
-
-				.text-3d span:nth-child(9) {
-					transform: translateZ(-16px);
-					color: #808080;
-				}
-
-				.text-3d span:nth-child(10) {
-					transform: translateZ(-18px);
-					color: #707070;
-				}
-
-				.text-3d span:nth-child(11) {
-					transform: translateZ(-20px);
-					color: #606060;
-				}
-
-				.text-3d span:nth-child(12) {
-					transform: translateZ(-22px);
-					color: #505050;
-				}
-
-				.text-3d span:nth-child(13) {
-					transform: translateZ(-24px);
-					color: #404040;
-				}
-
-				.text-3d span:nth-child(14) {
-					transform: translateZ(-26px);
-					color: #303030;
-				}
-
-				.text-3d span:nth-child(15) {
-					transform: translateZ(-28px);
-					color: #202020;
 				}
 
 				/* Floating 3D Cubes */
@@ -260,10 +200,10 @@
 				.info-text {
 					color: white;
 					font-size: 1rem;
-					font-family: "Open Sans", sans-serif;
-					text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+					font-weight: 700;
 					margin: 5px 0;
 					text-transform: uppercase;
+					text-shadow: 1px 1px #6495ED;
 					letter-spacing: 0.1em;
 				}
 
@@ -272,16 +212,18 @@
 				}
 
 				.info-links a {
-					color: #ffd700;
+					color: #6495ED;
 					text-decoration: none;
 					margin: 0 10px;
 					font-size: 0.9rem;
-					text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+					font-weight: 700;
+					text-shadow: 1px 1px white;
 					transition: color 0.3s;
 				}
 
 				.info-links a:hover {
-					color: #fff;
+					color: white;
+					text-decoration: underline;
 				}
 
 				/* Animations */
@@ -317,7 +259,7 @@
 						transform: translateY(0px);
 					}
 					50% {
-						transform: translateY(-20px);
+						transform: translateY(-5px);
 					}
 				}
 
@@ -387,23 +329,10 @@
 
 			<!-- HTML -->
 			<div class='body'>
-				<!-- 3D Scene -->
 				<div class="scene-3d">
 					<!-- 3D Text -->
 					<div class="text-3d-container">
 						<div class="text-3d">
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
-							<span>DERIS O'MALLEY</span>
 							<span>DERIS O'MALLEY</span>
 							<span>DERIS O'MALLEY</span>
 							<span>DERIS O'MALLEY</span>
@@ -468,10 +397,6 @@
 					<!-- Floating Particles -->
 					<div class="particle-3d"></div>
 					<div class="particle-3d"></div>
-					<div class="particle-3d"></div>
-					<div class="particle-3d"></div>
-					<div class="particle-3d"></div>
-					<div class="particle-3d"></div>
 				</div>
 
 				<!-- Info Section -->
@@ -479,8 +404,8 @@
 					<div class="info-text">Web Developer</div>
 					<div class="info-links">
 						<a href="https://github.com/DerisO22">GitHub</a>
-						<a href="mailto:nikolaseap@gmail.com">Contact</a>
-						<a href="https://pragmaticpineapple.com">The Leahy Center</a>
+						<a href="mailto:deris.omalley@mymail.champlain.edu">Contact</a>
+						<a href="https://derisomalley.me">3D Web Portfolio</a>
 					</div>
 				</div>
 			</div>
