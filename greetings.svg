@@ -36,8 +36,10 @@
 				/* 3D Text Container */
 				.text-3d-container {
 					position: absolute;
-					top: 50%;
-					left: 50%;
+					top: 20%;
+					left: 30%;
+					margin: auto;
+					text-align: center;
 					transform-style: preserve-3d;
 					animation: float 6s ease-in-out infinite;
 				}
