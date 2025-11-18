@@ -1,6 +1,6 @@
-<div style="width: 400px; margin: auto;">
+<div align="center" style="width: 500px; margin: auto;">
   <a href="./greetings.svg">
-    <img src="./greetings.svg" style="width: 400px; height: 300px" alt="Click to see the source">
+    <img src="./greetings.svg" style="width: 500px; height: 400px margin: auto;" alt="Click to see the source">
   </a>
 </div>
 
