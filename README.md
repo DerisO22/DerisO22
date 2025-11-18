@@ -1,5 +1,8 @@
-## Hi there 👋
-
+<div style="width: 100%;">
+  <a href="https://github.com/deriso22/deriso22/blame/main/greetings.svg">
+    <img src="welcome.svg" style="width: 100%;" alt="Click to see the source">
+  </a>
+</div>
 <!--
 **DerisO22/DerisO22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
